@@ -1,0 +1,51 @@
+
+.heading {
+  text-align: center; /* Center text horizontally */
+  margin-top: 5px; /* Add space at the top */
+  font-size: 3rem; /* Adjust the size as needed */
+  color: violet; /* Heading color */
+  transform: translate(70px);
+}
+
+
+.bars-container {
+  display: flex;
+  align-items: flex-end; /* Align bars to the bottom */
+  justify-content: center; /* Align bars to the left */
+  flex-wrap: nowrap; /* Prevent bars from wrapping to the next line */
+  height: 100%; /* Set the height of the container */
+  width: 100%; /* Set the width of the container */
+  overflow-x: auto; /* Allow horizontal scrolling if needed */
+  overflow-y: hidden; /* Hide vertical overflow */
+  padding: 10px; /* Optional padding */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+ 
+}
+
+.bar {
+  background-color: #3498db; /* Color of the bars */
+  width: 25px; /* Width of each bar */
+  margin: 0 2px; /* Space between bars */
+  position: relative; /* For positioning bar-value */
+  display: flex;
+  align-items: flex-end; /* Align the value at the bottom of the bar */
+  justify-content: center; /* Center the value horizontally */
+}
+.control-panel {
+  display: flex;
+  flex-direction: row; /* Align items horizontally */
+  align-items: center; /* Center items vertically */
+  justify-content: space-evenly; /* Space out the buttons */
+  margin-bottom: 20px; /* Space between control panel and bars */
+  margin-left: 20px;
+}
+
+.speed-control {
+  display: flex;
+  align-items: center;
+  margin-left: 20px; /* Space between first sidebar and speed control */
+}
+.n{
+  color: #3498db;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
